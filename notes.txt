@@ -1,0 +1,6 @@
+- create a project folder
+- download and install node
+- run npm init - select config options, creates a package.json file, 
+- install express : npm install --save express
+- create a server.js file, write codes to spin up node server
+- create app.js file
