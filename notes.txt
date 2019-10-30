@@ -4,3 +4,7 @@
 - install express : npm install --save express
 - create a server.js file, write codes to spin up node server
 - create app.js file
+- create routes
+- install nodemon : npm install --save-dev nodemon
+- log request to terminal : npm install --save morgan
+- install body parser : npm install --save body-parser
