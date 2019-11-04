@@ -13,8 +13,9 @@ mongoose.connect('mongodb+srv://johnebri:' + process.env.MONGO_ATLAS_PW +'@node-
 }
 
 );
+mongoose.Promise = global.Promise;
 
-app.use(morgan('dev'));
+app.use(morgan('dev')); 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
