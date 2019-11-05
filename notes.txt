@@ -8,3 +8,4 @@
 - install nodemon : npm install --save-dev nodemon
 - log request to terminal : npm install --save morgan
 - install body parser : npm install --save body-parser
+- install mongoose : npm install --save mongoose
