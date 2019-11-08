@@ -7,8 +7,8 @@ const Product = require("../models/product");
 
 router.get('/', (req, res, next) => {
     Order.find()
-    .select('product quantity _id')
-    .populate('product', 'name')
+    .select('product quantity _id') // displays only these fields
+    .populate('product', 'name') // get these values from other models, some joins
     .exec()
     .then(docs => {
         res.status(200).json({
