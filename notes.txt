@@ -10,4 +10,5 @@
 - install body parser : npm install --save body-parser
 - install mongoose : npm install --save mongoose
 - install multer: npm install --save multer (parse incoming form data bodies , image upload)
+- install jsonwebtoken : npm install jsonwebtoken --save
 - 

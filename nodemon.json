@@ -1,5 +1,6 @@
 {
     "env" : {
-        "MONGO_ATLAS_PW" : "**chemistry"
+        "MONGO_ATLAS_PW" : "**chemistry",
+        "JWT_KEY": "secret"
     }
 }
